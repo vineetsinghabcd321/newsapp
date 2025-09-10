@@ -35,6 +35,7 @@ class _CategoryNewsState extends State<CategoryNews> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+                backgroundColor: Colors.grey,
         title: Text(
           widget.category,
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
