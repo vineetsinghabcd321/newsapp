@@ -40,7 +40,7 @@ class _ArticleViewState extends State<ArticleView> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Article'),
-        backgroundColor: Colors.blue,
+             backgroundColor: Colors.grey,
         foregroundColor: Colors.white,
       ),
       body: Stack(
